@@ -1,5 +1,4 @@
 # RESTfullMemoPrj
-Init
 
 Java 1.8
 GlassFish 5.0.0
