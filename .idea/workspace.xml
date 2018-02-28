@@ -8,9 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="50e68ba4-85c9-4175-87e5-5bdd32d0ef75" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Memo.java" afterPath="$PROJECT_DIR$/src/Memo.java" />
-      <change beforePath="$PROJECT_DIR$/src/MemoTab.java" afterPath="$PROJECT_DIR$/src/MemoTab.java" />
-      <change beforePath="$PROJECT_DIR$/src/Memos.java" afterPath="$PROJECT_DIR$/src/Memos.java" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RESTfullMemo_war_exploded/WEB-INF/classes/Memo.class" afterPath="$PROJECT_DIR$/out/artifacts/RESTfullMemo_war_exploded/WEB-INF/classes/Memo.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RESTfullMemo_war_exploded/WEB-INF/classes/MemoTab.class" afterPath="$PROJECT_DIR$/out/artifacts/RESTfullMemo_war_exploded/WEB-INF/classes/MemoTab.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RESTfullMemo_war_exploded/WEB-INF/classes/Memos.class" afterPath="$PROJECT_DIR$/out/artifacts/RESTfullMemo_war_exploded/WEB-INF/classes/Memos.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/RESTfullMemo/Memo.class" afterPath="$PROJECT_DIR$/out/production/RESTfullMemo/Memo.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/RESTfullMemo/MemoTab.class" afterPath="$PROJECT_DIR$/out/production/RESTfullMemo/MemoTab.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/RESTfullMemo/Memos.class" afterPath="$PROJECT_DIR$/out/production/RESTfullMemo/Memos.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +42,8 @@
       <file leaf-file-name="Memos.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Memos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="798">
+              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#186#187#0" expanded="true" />
@@ -449,7 +452,7 @@
       <workItem from="1519679151420" duration="9816000" />
       <workItem from="1519717486901" duration="957000" />
       <workItem from="1519721637281" duration="5077000" />
-      <workItem from="1519740008688" duration="34280000" />
+      <workItem from="1519740008688" duration="34414000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1519773783645</created>
@@ -458,11 +461,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519773783645</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="11:58 28.02.2018">
+      <created>1519801160490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1519801160490</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64559000" />
+    <option name="totallyTimeSpent" value="64693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -566,7 +576,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="11:58 28.02.2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="11:58 28.02.2018" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -950,8 +961,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Memos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="798">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />
