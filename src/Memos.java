@@ -1,7 +1,6 @@
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
-import java.util.UUID;
 
 @Path("/")
 public class Memos {
@@ -21,18 +20,30 @@ public class Memos {
 
     @PUT
     @Path("/post")
+    @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-    public List<Memo> putMemo(@FormParam("title") String title, @FormParam("text") String text){
+    public List<Memo> putMemo(@QueryParam("title") String title, @QueryParam("text") String text){
         if (title.length()<=30 && text.length() <= 500)
             MemoTab.get().addMemo(title,text);
         List<Memo> memos = MemoTab.get().getMemos();
         return memos;
     }
 
+    @PUT
+    @Path("/posts")
+    @Produces(MediaType.APPLICATION_JSON)
+    @Consumes(MediaType.APPLICATION_JSON)
+    public List<Memo> putMemoS(){
+        MemoTab.get().addMemo("1","2");
+        List<Memo> memos = MemoTab.get().getMemos();
+        return memos;
+    }
+
     @POST
     @Path("/update")
+    @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-    public List<Memo> postMemo(@FormParam("id") UUID id, @FormParam("title") String title, @FormParam("text") String text){
+    public List<Memo> postMemo(@QueryParam("id") String id, @QueryParam("title") String title, @QueryParam("text") String text){
         if (title.length()<=30 && text.length() <= 500)
             MemoTab.get().updateMemo(id,title,text);
         List<Memo> memos = MemoTab.get().getMemos();
@@ -41,8 +52,9 @@ public class Memos {
 
     @DELETE
     @Path("/delete")
+    @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-    public List<Memo> deleteMemo(@FormParam("id") UUID id){
+    public List<Memo> deleteMemo(@QueryParam("id") String id){
         MemoTab.get().removeMemo(id);
         List<Memo> memos = MemoTab.get().getMemos();
         return memos;

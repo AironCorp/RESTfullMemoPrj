@@ -31,19 +31,12 @@ public class MemoTab {
         return mMemos;
     }
 
-    public void addMemoStatic(){
-        Memo memo = new Memo();
-        memo.setTitle("MyMemo 1");
-        memo.setText("MyMemo 1");
-        mMemos.add(memo);
-    }
-
     public void addMemo(String title, String text){
         Memo memo = new Memo(title,text);
         mMemos.add(memo);
     }
 
-    public void removeMemo(UUID id){
+    public void removeMemo(String id){
         List<Memo> remMemo = new ArrayList<>();
         Iterator<Memo> iteratorMemos = mMemos.iterator();
         while (iteratorMemos.hasNext()){
@@ -54,7 +47,7 @@ public class MemoTab {
         mMemos = remMemo;
     }
 
-    public void updateMemo(UUID id, String title, String text){
+    public void updateMemo(String id, String title, String text){
         List<Memo> upMemo = new ArrayList<>();
         Iterator<Memo> iteratorMemos = mMemos.iterator();
         while (iteratorMemos.hasNext()) {

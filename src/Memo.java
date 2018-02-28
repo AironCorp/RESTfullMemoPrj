@@ -22,6 +22,8 @@ public class Memo {
     public Memo(){
         super();
         this.id = UUID.randomUUID().toString();
+        this.title = "";
+        this.text = "";
         this.data_create = Clock.system(ZoneId.of("UTC+0")).instant().getEpochSecond();
         this.data_update = Clock.system(ZoneId.of("UTC+0")).instant().getEpochSecond();
     }
